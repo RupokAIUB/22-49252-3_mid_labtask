@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: WhiteSmoke;
+    margin: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* IMPORTANT FIX: remove inline-block whitespace issue */
+.container {
+    font-size: 0;
+}
+
+/* Box styling */
+.box {
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+    border: 2px solid black;
+    background-color: LightYellow;
+    font-size: 16px; /* restore text size */
+}
+
+/* Sidebar (20%) */
+.sidebar {
+    width: 20%;
+    background-color: LightBlue;
+}
+
+/* Main Content (60%) */
+.main {
+    width: 50%;
+    height: 40%;
+    background-color: Beige;
+}
+
+/* Advertisement (20%) */
+.ads {
+    width: 20%;
+    background-color: LightGreen;
+}

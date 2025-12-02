@@ -1,0 +1,29 @@
+
+.box {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: LightYellow;
+}
+
+/* 1. Overflow visible – extra content go outside the box */
+.visible {
+    overflow: visible; /* Content goes outside the box */
+}
+
+/* 2. Overflow hidden – extra content is cut off */
+.hidden {
+    overflow: hidden; /* Extra content disappears */
+}
+
+/* 3. Overflow scroll – box always shows scrollbars */
+.scroll {
+    overflow: scroll; /* Scrollbars always visible */
+}
+
+/* 4. Overflow auto – scrollbars show only when needed */
+.auto {
+    overflow: auto; /* Scrollbars appear only if text is too long */
+}

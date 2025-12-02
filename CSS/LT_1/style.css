@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+
+header {
+    background-color: #0077cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.profile-box {
+    background-color: #ffffff;
+    width: 50%;
+    margin: 30px auto; 
+    padding: 20px;     
+    border: 2px solid #0077cc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px; 
+    margin-bottom: 15px;
+}
+
+
+.bio {
+    font-size: 1.1em;
+    margin-top: 15px;
+    color: #333;
+}
+
+
+footer {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}

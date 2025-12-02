@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Portal Signup</title>
+</head>
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form id="signupForm">
+
+  <label for="fullname">Full Name</label>
+  <input type="text" id="fullname" name="fullname" >
+  <p id="nameError"></p>
+
+  <label for="email">Email</label>
+  <input type="text" id="email" name="email" >
+  <p id="emailError"></p>
+
+  <label for="password">Password</label>
+  <input type="password" id="password" name="password" >
+  <p id="passwordError"></p>
+
+  <label for="confirmPassword">Confirm Password</label>
+  <input type="password" id="confirmPassword" name="confirmPassword" >
+  <p id="confirmError"></p>
+
+  <label for="phone">Phone Number</label>
+  <input type="text" id="phone" name="phone" >
+  <p id="phoneError"></p>
+
+  <button type="submit">Submit</button>
+
+  <h3 id="successMsg"></h3>
+
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>

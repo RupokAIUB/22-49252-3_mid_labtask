@@ -1,0 +1,26 @@
+
+.contact-widget {
+    position: fixed;         
+    bottom: 20px;
+    right: 20px;
+    background-color: lightblue;
+    padding: 15px;
+    border: 2px solid navy;
+    border-radius: 8px;
+    z-index: 9999;
+    width: 180px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+
+.contact-widget:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+
+.content {
+    height: 1500px;
+    padding: 20px;
+}

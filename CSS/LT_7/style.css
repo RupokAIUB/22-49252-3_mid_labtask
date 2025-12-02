@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: WhiteSmoke;
+}
+
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: Black; 
+    color: White;            
+    padding: 15px 20px;
+    border-bottom: 3px solid DimGray; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.sticky-header nav a {
+    color: Gainsboro;  
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sticky-header nav a:hover {
+    color: White;  
+}
+
+
+.content {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+.content p {
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
